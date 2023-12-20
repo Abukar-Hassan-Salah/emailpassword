@@ -1,4 +1,5 @@
 // import 'package:emailpassword/add_data.dart';
+import 'package:emailpassword/dirid.dart';
 import 'package:emailpassword/firebase_options.dart';
 // import 'package:emailpassword/image.dart';
 import 'package:emailpassword/screen/widgets/sign_in.dart';
@@ -13,7 +14,8 @@ void main() async {
   );
   runApp(MaterialApp(
     // home: Uploadpicture(),
-    home: SignInPage(),
+    // home: SignInPage(),
+    home: StreamFirebase(),
   ));
 }
 
