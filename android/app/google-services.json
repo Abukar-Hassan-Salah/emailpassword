@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "686594837092",
+    "project_id": "my-login-abec1",
+    "storage_bucket": "my-login-abec1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686594837092:android:9f08deb5de902e861eed71",
+        "android_client_info": {
+          "package_name": "com.example.emailpassword"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCRO1_nOPKSjUW7wkNhSjP976wtdhKd_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
