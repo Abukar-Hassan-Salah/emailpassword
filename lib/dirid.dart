@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable
+
 import 'dart:convert';
 import 'dart:io';
 import 'dart:typed_data';
@@ -227,6 +229,7 @@ class _StreamFirebaseState extends State<StreamFirebase> {
                           shrinkWrap: true,
                           physics: const NeverScrollableScrollPhysics(),
                           itemCount: data.length,
+                          // ignore: body_might_complete_normally_nullable
                           itemBuilder: (context, index) {
                             final Map<String, dynamic> arg =
                                 data[index].data() as Map<String, dynamic>;
