@@ -1,6 +1,8 @@
 // import 'package:emailpassword/add_data.dart';
+// ignore: unused_import
 import 'package:emailpassword/dirid.dart';
 import 'package:emailpassword/firebase_options.dart';
+import 'package:emailpassword/user.dart';
 // import 'package:emailpassword/image.dart';
 // import 'package:emailpassword/screen/widgets/sign_in.dart';
 // import 'package:emailpassword/screen/widgets/sign_in.dart';
@@ -12,10 +14,12 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  runApp(MaterialApp(
+  runApp(const MaterialApp(
     // home: Uploadpicture(),
     // home: SignInPage(),
-    home: StreamFirebase(),
+    // home: StreamFirebase(),
+    home:LessonThirteen(),
+
   ));
 }
 

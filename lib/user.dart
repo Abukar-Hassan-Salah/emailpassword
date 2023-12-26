@@ -18,7 +18,7 @@ class LessonThirteen extends StatefulWidget {
 class _LessonThirteenState extends State<LessonThirteen> {
   List<UserModel> users = [];
   // this needs fixing
-  late String endPoint;
+  
 
   Future<List<UserModel>> getUsers() async {
     try {
